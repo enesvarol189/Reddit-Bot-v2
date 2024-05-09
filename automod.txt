@@ -1,0 +1,755 @@
+---
+### Controversial plant names
+
+type: submission
+title+body: ['wandering jew']
+action: remove
+action_reason: "Includes: {{match}}"
+comment_stickied: true
+comment: Use of the name "wandering jew" for tradescantia zebrina is now considered controversial. Please resubmit your post with a replacement name, such as wandering dude.
+comment_locked: true
+
+---
+### Filter Plant Progress Posts
+
+type: submission
+flair_text (includes-word): ['update']
+action: filter
+action_reason: Post flair Plant Progress selected
+#comment_stickied: true
+comment: |
+    Thank you for posting a plant progress post! Please be sure that your post adheres to rule 3, including a link to your original post and the advice you found most helpful.
+
+    If chose this flair in error, please adjust your post flair and be sure to add as much of the following information as possible with your post if not already included: How long you have you had the plant, how long have you had the problem, how much light does the plant get, what are your watering habits, and does the pot have drainage. Posts without this additional information may be removed. The more information you provide, the better we can help!
+comment_locked: true
+---
+
+### Filter Pest Posts
+type: submission
+flair_text (includes-word): ['pest']
+action: filter
+action_reason: Post flair Pest selected
+#comment_stickied: true
+comment: |
+    Your post is being manually reviewed to verify that it adheres to r/plantclinic rules. Questions solely requesting pest identification should be submitted to r/whatsthisbug. If applicable, please reply ***to your own post*** and add as much of the following information as possible: 
+
+    If this was done in error, please make sure you have completed the following:
+
+    Please reply ***to your own post*** and add as much of the following information as possible:
+    
+    &#128166; **What are your watering habits (how often, how much, distilled or tap, etc.)**, and does the pot have drainage?
+        
+    &#129716; How long you have you had the plant?
+
+    &#10067; How long have you had the problem?
+
+    &#127774; How much light does the plant get?
+
+    Posts without this additional information may be removed. The more information you provide, the better we can help!
+comment_locked: true
+
+---
+
+### Filter for possible soil issues
+
+type: submission
+title+body (includes-word): ['fungi', 'fungus', 'mold', 'fuzz','fuzzy', 'mushroom','mushrooms']
+action: filter
+action_reason: "Soil or mushroom - check for sick plant"
+comment_stickied: true
+comment: |
+    Thank you for posting to r/plantclinic! Your post is being manually reviewed. If you have not already provided care information, please reply ***to your own post*** and add as much of the following information as possible:
+
+    If this was done in error, please make sure you have completed the following:
+
+    Please reply ***to your own post*** and add as much of the following information as possible:
+    
+    &#128166; **What are your watering habits (how often AND how much)**, and does the pot have drainage?
+        
+    &#129716; How long you have you had the plant?
+
+    &#10067; How long have you had the problem?
+
+    &#127774; How much light does the plant get?
+
+    Posts without this additional information may be removed. The more information you provide, the better we can help!
+comment_locked: true
+
+---
+
+### Filter terms most often found in removed posts, non-regex
+
+type: submission
+title+body (includes-word): ['pricing', 'watch out', 'what plant', 'identify', 'what kind', 'plant name', 'selling', 'haul', 'sub', 'mod', 'mods', 'ID', 'name', 'planting', 'seeds', 'planter', 'repot', 'report', 'update', 'progress', 'flower', 'flowering', 'recommend','germinate','germinating','propagate', 'propagation','propagates','propagating']
+action: filter
+action_reason: "Includes: {{match}}"
+comment_stickied: true
+comment: |
+
+    Thank you for posting to r/plantclinic! Your post is being manually reviewed. If you have not already provided care information, please reply ***to your own post*** and add as much of the following information as possible:
+
+    &#128166; **What are your watering habits (how often AND how much)**, and does the pot have drainage?
+
+    &#129716; How long you have you had the plant?
+
+    &#10067; How long have you had the problem?
+
+    &#127774; How much light does the plant get?
+        
+    &#128027; Pest and &#127793; soil issues may be re-directed to the [monthly pest and soil thread](https://www.reddit.com/r/plantclinic/comments/17kz9qq/rplantclinic_november_2023_pest_and_soil_qa_post/)
+
+    Posts without this additional information provided within ten minutes may be removed, but will be reapproved when the information is added. The more information you provide, the better we can help!
+comment_locked: true
+
+---
+
+### Filter terms most often found in removed comments
+
+type: comment
+body (includes-word): ['grow up', 'duh', 'shocker', 'ffs', 'retarded', 'woke', 'wokeness', 'BS', 'hateful', 'houseplantscirclejerk', 'plantcemetery', 'plantmorgue', 'plantabuse', 'houseplants circlejerk', 'plant cemetery', 'plant morgue', 'plant abuse', 'ded']
+action: filter
+action_reason: "Includes: {{match}}"
+
+---
+
+
+
+### Mushrooms
+
+#type: submission
+#title+body: ['mushroom', 'mushrooms']
+#action: remove
+#action_reason: "Includes: {{match}}"
+#comment_stickied: true
+#comment: Mushrooms indicate the soil is a warm and moist environment. They are not directly harmful to your plant, and as such, #your post as been removed for not meeting subreddit requirements. This action was done automatically. If you would like a #moderator to review this action, please reach out via modmail. Reply with "!mushrooms" for additional advice
+
+---
+
+### Carnivorous
+
+type: submission
+title+body (includes-word): ['venus', 'pitcher plant', 'nepenthes']
+#comment_stickied: true
+comment: |
+    It looks like you may be asking about a carnivorous plant. In addition to any advice you receive here, please consider visiting r/savagegarden for more specialized care advice.
+comment_locked: true
+
+---
+
+### Lithops
+
+type: submission
+title+body: ['lithop','lithops']
+#comment_stickied: true
+comment: |
+    It looks like you may be asking about lithops. In addition to any advice you receive here, please consider visiting r/lithops for more specialized care advice.
+comment_locked: true
+
+---
+
+### Orchids
+
+type: submission
+flair_text (includes-word): ['orchid']
+#comment_stickied: true
+comment: |
+    It looks like you may be asking about orchids.
+
+    Phalaenopsis orchids grow on trees in the wild and need air flow around their roots. They are usually kept in coarse bark chips in pots with lots of drainage holes as soil suffocates their roots. Water orchids by submerging the pot in room temperature water for about 15 minutes and then let it drain. Make sure there is no water pooling in the crown of the leaves.
+
+    Do this when the membrane covering the roots is silvery and dry. Hydrated roots are green, plump, and mottled. Cut off roots that don't plump up after watering and roots that are black and slimy. Keep the plant in bright indirect light.
+
+    Orchid flowers die after a while, that is normal. Cut off the flower stalk when it is dead. The orchid should flower again but it can take several months. Add orchid fertilizer to the water when you see a new flower stalk forming to prolong the flowering. Replace the bark about once a year.
+comment_locked: true
+---
+
+### Terrariums
+
+type: submission
+title+body: ['terrarium','terrariums','terrarrium']
+#comment_stickied: true
+comment: |
+    It looks like you may be asking about a terrarium. In addition to any advice you receive here, please consider visiting r/terrariums for more specialized care advice.
+comment_locked: true
+---
+### Monstera
+type: submission
+flair_text (includes-word): ['monstera']
+#comment_stickied: true
+comment: |
+    Thank you for posting to r/plantclinic!
+
+    It looks like you may be asking about a monstera. In addition to any advice you receive here, please consider visiting r/monstera for more specialized care advice.
+comment_locked: true
+---
+### Succulents
+type: submission
+flair_text (includes-word): ['succulent']
+#comment_stickied: true
+comment: |
+    Thank you for posting to r/plantclinic!
+
+    It looks like you may be asking about a cactus or succulent. In addition to any advice you receive here, please consider visiting r/cactus r/succulents for more specialized care advice.
+
+    A common problem with cacti and succulents is etiolation. This is when a succulent stretches or becomes leggy. Reply with "!etiolation" for advice.
+comment_locked: true
+---
+### Outdoor
+type: submission
+flair_text (includes-word): ['outdoor']
+#comment_stickied: true
+comment: |
+    Thank you for posting to r/plantclinic!
+
+    While r/plantclinic permits posts related to outdoor plants, they are not the focus of this sub and you may not receive the advice you need. Please consider visiting r/gardening or r/ukgardening for general outdoor gardening advice, and head to r/marijuanaenthusiasts (a subreddit for trees, we promise) for advice related to trees and saplings
+comment_locked: true
+---
+
+### Remove crossposts from disallowed subreddits
+
+crosspost_subreddit:
+    name: ['r/houseplantscirclejerk', 'r/plantcemetery', 'r/plantmorgue', 'r/plantabuse']
+action: remove
+
+
+---
+
+type: comment
+body (includes-word): '!automod'
+comment: |
+    Please reply ***to your own post*** and add as much of the following information as possible:
+   
+    &#128166; **What are your watering habits (how often AND how much)**, and does the pot have drainage?
+        
+    &#129716; How long you have you had the plant?
+
+    &#10067; How long have you had the problem?
+
+    &#127774; How much light does the plant get?
+
+    &#128027; Pest and &#127793; soil issues may be re-directed to the [monthly pest and soil thread](https://www.reddit.com/r/plantclinic/comments/16xu3xa/october_2023_pest_and_soil_issue_thread/?utm_source=share&utm_medium=web2x&context=3)
+
+    Posts without this additional information may be removed. The more information you provide, the better we can help!
+
+
+---
+
+### Auto-responder for aphids
+
+type: comment
+body (includes-word): '!aphids'
+comment: |
+    Found advice keyword: `{{match}}`
+
+    Your plant is suffering from an infestation of [aphids](https://en.wikipedia.org/wiki/Aphid). Aphids can be sprayed off with water from a hose or shower, with insecticidal soap applied to prevent reinfestation. [More here](https://extension.umd.edu/resource/aphids-indoor-plants)
+
+---
+
+### Auto-responder for fungus-gnats
+
+type: comment
+body (includes-word): '!fungus-gnats'
+comment: |
+    Found advice keyword: `{{match}}`
+
+    Your plant is suffering from an infestation of [fungus gnats](https://en.wikipedia.org/wiki/Fungus_gnat). A first step in a fungus gnat outbreak should be yellow sticky traps to catch adult bugs, and letting the soil dry out to kill larvae. Bottom watering may assist with future management. Bacillus thuringiensis var. Israelensis (Bti) dunks may also be considered for persistent infestations [More here](https://extension.umd.edu/resource/fungus-gnats)
+
+---
+
+### Auto-responder for mealybugs
+
+type: comment
+body (includes-word): '!mealybugs'
+comment: |
+    Found advice keyword: `{{match}}`
+
+    Your plant is suffering from an infestation of [mealybugs](https://en.wikipedia.org/wiki/Mealybug). Manual removal with a cotton swab soaked in rubbing alcohol is recommended for spot treatment, with additional treatment via insecticidal soap for heavier infestations. Systemic pesticides may be helpful. Treatment should continue for several weeks. [More here](https://extension.umd.edu/resource/mealybugs-indoor-plants) 
+
+    Infested plants should be isolated as best as possible while treatment is ongoing.
+
+---
+
+### Auto-responder for scale
+
+type: comment
+body (includes-word): '!scale'
+comment: |
+    Found advice keyword: `{{match}}`
+
+    Your plant is suffering from an infestation of [scale](https://en.wikipedia.org/wiki/Scale_insect). Treatment options include manual removal of scale insects, horticultural oil (neem oil), and insecticidal soap. Systemic pesticides may not be recommended for all scale infestations. [More here](https://extension.umd.edu/resource/scale-insects-indoor-plants)
+
+    Infested plants should be isolated as best as possible while treatment is ongoing.
+
+---
+
+### Auto-responder for spider-mites
+
+type: comment
+body (includes-word): '!spider-mites'
+comment: |
+    Found advice keyword: `{{match}}`
+
+    Your plant is suffering from an infestation of [spider-mites](https://en.wikipedia.org/wiki/Spider_mite). Infected plants should be washed down, with insecticidal soap applied for further control. A pesticide listed for spider mites may also be considered. [More here](https://extension.umd.edu/resource/spider-mites-indoor-plants)
+
+    Infested plants should be isolated as best as possible while treatment is ongoing.
+
+
+---
+
+### Auto-responder for thrips
+
+type: comment
+body (includes-word): '!thrips'
+comment: |
+    Found advice keyword: `{{match}}`
+
+    Your plant is suffering from an infestation of [thrips](https://en.wikipedia.org/wiki/Thrips). Insecticidal soap and horticultural oils (neem oil) are recommended for early treatment, but chemical pesticides should be considered due to the difficulty in detecting portions of the thrips life cycle. [More here](https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/pests-and-problems/insects/thrips/thrips-indoors) A dusting of diatomaceous earth to the underside of the plant's leaves can also be effective.
+
+    Infested plants should be isolated as best as possible while treatment is ongoing.
+---
+
+### Auto-responder for lacewings
+
+type: comment
+body (includes-word): '!lacewings'
+comment: |
+    Found advice keyword: `{{match}}`
+
+    Congratulations! You have [lacewing eggs](https://en.wikipedia.org/wiki/Neuroptera)
+
+    [Lacewings are beneficial pests to have in a garden.](https://extension.umd.edu/resource/lacewings). However, their presence may indicate the presence of another pest sufficient for them to use as a food source, so check carefully for other pests.
+
+---
+
+### Auto-responder for springtails
+
+type: comment
+body (includes-word): '!springtails'
+comment: |
+    Found advice keyword: `{{match}}`
+
+    Your soil is occupied by [springtails](https://en.wikipedia.org/wiki/Springtail). These bugs are generally harmless to established plants and indicate an environment with excess moisture. [More here](https://extension.umd.edu/resource/springtails) and [here](https://ipm.ucanr.edu/PMG/PESTNOTES/pn74136.html)
+---
+
+### Auto-responder for orchid care
+
+type: comment
+body (includes-word): '!orchid'
+comment: |
+    Found advice keyword: `{{match}}`
+
+    Phalaenopsis orchids grow on trees in the wild and need air flow around their roots. They are usually kept in coarse bark chips in pots with lots of drainage holes as soil suffocates their roots. Water orchids by submerging the pot in room temperature water for about 15 minutes and then let it drain. Make sure there is no water pooling in the crown of the leaves.
+
+    Do this when the membrane covering the roots is silvery and dry. Hydrated roots are green, plump, and mottled. Cut off roots that don't plump up after watering and roots that are black and slimy. Keep the plant in bright indirect light.
+
+    Orchid flowers die after a while, that is normal. Cut off the flower stalk when it is dead. The orchid should flower again but it can take several months. Add orchid fertilizer to the water when you see a new flower stalk forming to prolong the flowering. Replace the bark about once a year.
+
+---
+
+### Auto-responder for mushrooms in soil
+
+type: comment
+body (includes-word): '!mushrooms'
+comment: |
+    Found advice keyword: `{{match}}`
+
+    [mushrooms](https://planethouseplant.com/why-are-there-mushrooms-growing-on-my-house-plant/) - mushrooms in houseplant soil are harmless to your plant. Because of their life cycle, they may seem to appear overnight. They appear because the conditions were right - usually warm, dark, humid, and moist soil. [More [photos here](https://www.lovethatleaf.co.nz/blogs/plant-care-guides/white-fuzzy-balls-eggs-mould-indoor-plants-soil)
+
+    Consider also posting to r/mycology if the above links are not helpful
+
+---
+
+### Auto-responder for mold in soil
+
+type: comment
+body (includes-word): '!mold'
+comment: |
+    Found advice keyword: `{{match}}`
+
+    [mold](https://getplanta.com/article/treatment/treatsoilmold) - moldy soil may appear as white fuzz on top of soil or may have the appearance of insect eggs. These molds are harmless to your plant, but indicate that your soil is staying moist and may be an indicator or root rot or fungus gnat issues still to come.
+
+    Consider also posting to r/mycology if the above links are not helpful
+
+---
+
+### Auto-responder for under-lit
+
+type: comment
+body (includes-word): '!etiolation'
+comment: |
+    Found advice keyword: `{{match}}`
+
+    Symptoms: Too little light can result in your plant becoming "leggy", or having longer sections of stem in between sets of leaves.
+
+    Treatment: Move your plant into a window that gets more light than its current location, or invest in a grow light.
+---
+
+### Auto-responder for fern spores
+
+type: comment
+body (includes-word): '!fernspores'
+comment: |
+    Found advice keyword: `{{match}}`
+
+    Bumps growing on the back of fern leaves are sori (sg. sorus) The contain sporangia, which produces spores, and also hold the spores until they're ready to be released. Ferns don't have flowers, they reproduce with spores. The spores themselves are too small to be seen by the naked eye. Fern spores are harmless.
+
+---
+    domain+body+title: ['http://redd.it', 'https://redd.it', 0rz.tw, 1jl.info, 1link.in, 1un.fr, 1url.com, 1url.cz, 1wb2.net, 2.gp, 2.ht, 2big.at, 2doc.net, 2fear.com, 2pl.us, 2tu.us, 2u.xf.cz, 2ya.com, 3.ly, 3x.si, 4ms.me, 4sq.com, 5z8.info, 6g6.eu, 7.ly, 7li.in, 8u.cz, a.co, a.gg, a.nf, a0.fr, a2n.eu, aa.cx, abbrr.com, abnb.me, ad-med.cz, ad.vu, ad5.eu, ad7.biz, adb.ug, adcraft.co, adcrun.ch, adf.ly, adfa.st, adflav.com, adjix.com, adv.li, afx.cc, aka.gr, alturl.com, amzn.to, any.gs, app.link, app.x.co, apple.news, ar.gy, asso.in, atu.ca, azc.cc, b23.ru, b2l.me, b54.in, b65.us, bc.vc, bcool.bz, beam.to, bee4.biz, bfy.tw, bigly.us, bim.im, binged.it, bit.do, bit.ly, bitly.com, bitw.in, bizj.us, bkite.com, bl.ink, blap.net, ble.pl, blip.tv, bote.me, bougn.at, bravo.ly, brk.to, brzu.net, bsa.ly, bst.is, budurl.com, buff.ly, burnurl.com, bv.ms, bxl.me, bzh.me, canurl.com, cbug.cc, cc.cc, cektkp.com, cf2.me, cf6.co, chilp.it, chzb.gr, cjb.net, cl.ly, clck.ru, cli.gs, cli.re, cliccami.info, clickmeter.com, clickthru.ca, clikk.in, clk.im, clnk.in, cnn.it, conta.cc, cort.as, cot.ag, crisco.com, crks.me, crwd.cr, ctvr.us, cur.lv, cutt.eu, cutt.ly, cutt.us, cuturl.com, cybr.fr, cyonix.to, dai.ly, db.tt, dd.ma, decenturl.com, dfl8.me, dft.ba, digbig.com, digg.com, disq.us, dld.bz, dlvr.it, do.my, dopice.sk, doshort.com, droid.ws, dwarfurl.com, dy.fi, dyo.gs, easyurl.com, easyurl.net, ebay.to, ecra.se, eepurl.com, erw.cz, esyurl.com, eweri.com, exe.io, ezurl.cc, fa.by, fav.me, fb.me, fbshare.me, ff.im, fhurl.com, filoops.info, filz.fr, fire.to, firsturl.de, firsturl.net, fivr.me, flic.kr, flq.us, fly2.ws, freze.it, fur.ly, fvrr.co, fwd4.me, fwib.net, g.co, g00.me, geniuslink.com, get-shorty.com, gg.gg, gizmo.do, go.9nl.com, go.ign.com, go.usa.gov, go2.me, go2cut.com, golinks.co, goo.gl, goshrink.com, gowat.ch, gurl.es, hellotxt.com, hex.io, hide.my, hiderefer.com, hit.my, hmm.ph, hops.me, hover.com, href.li, hsblinks.com, ht.ly, htxt.it, hubs.ly, huff.to, hurl.it, hyperurl.co, icit.fr, ick.li, icks.ro, idek.net, ift.tt, iguang.tw, iiiii.in, iky.fr, ilix.in, is.gd, iscool.net, itm.im, ity.im, ix.lt, ix.sk, j.gs, j.mp, jdem.cz, jmp2.net, jqw.de, just.as, kask.us, kd2.org, kfd.pl, kissa.be, korta.nu, kr3w.de, kratsi.cz, krod.cz, krunchd.com, kuc.cz, l-k.be, l9.fr, l9k.net, labb.in, lat.ms, lc-s.co, lc.cx, lemde.fr, libero.it, liip.to, liltext.com, linkbun.ch, linkto.im, linktr.ee, linx.cf, llu.ch, lnk.co, lnk.ms, lnk.sk, lnkd.in, lnks.fr, lru.jp, lt.tl, m3mi.com, macte.ch, mailchi.mp, mcaf.ee, mdl29.net, merky.de, metamark.net, mic.fr, migre.me, mke.me, mktw.net, moby.to, mol.im, moourl.com, more.sh, mrte.ch, myurl.in, mz.cm, n.pr, nanoref.com, nbc.co, nblo.gs, net46.net, nicou.ch, nig.gr, not.my, notlong.com, nov.io, nq.st, nsfw.in, nutshellurl.com, nyti.ms, o-x.fr, oc1.us, okok.fr, on.mktw.net, onelink.me, onforb.es, oua.be, ow.ly, oze.io, p6l.org, parky.tv, past.is, ph.ly, picz.us, pin.st, ping.fm, plots.fr, pm.wu.cz, po.st, politi.co, poprl.com, post.ly, posted.at, ppt.cc, ppt.li, prettylinkpro.com, ptiturl.com, ptm.ro, pub.vitrue.com, q.gs, qbn.ru, qicute.com, qlnk.net, qqc.co, qqurl.com, qr.ae, qr.net, qrtag.fr, qte.me, quip-art.com, qxp.sk, qy.fi, r.im, rb.gy, rb6.me, read.bi, readthis.ca, redirects.ca, redirx.com, redu.it, ref.so, relink.fr, reut.rs, rite.link, rsmonkey.com, rt.nu, rurl.org, rx.hu, s-url.fr, safe.mn, sagyap.tk, scrnch.me, sdu.sk, sdut.us, sh.st, shar.as, shar.es, sharein.com, sharetabs.com, shink.de, shor.by, shorl.com, short.cm, short.pk, short.to, shorte.st, shorten.me, shortenurl.com, shorterlink.com, shortn.me, shortna.me, shorturl.at, shorturl.com, show.my, shredurl.com, shrinke.me, shrinkify.com, shrinkr.com, shrinkurl.us, shrt.fr, shrt.in, shrten.com, shrtnd.com, shurl.net, sicax.net, simurl.com, sina.lt, skroc.pl, slate.me, smallr.com, smarturl.it, smsh.me, snip.ly, snipr.com, snipurl.com, snsw.us, snurl.com, soo.gd, sq6.ru, sqrl.it, srnk.net, starturl.com, sturly.com, surl.co.uk, surl.me, sy.pe, t.cn, t.co, t.lh.com, t.me, t2m.io, tabzi.com, tcrn.ch, tdjt.cz, tgr.ph, thn.li, tighturl.com, tiks.co, tin.li, tiny.cc, tiny.lt, tiny.pl, tiny.tw, tinyarrows.com, tinylink.com, tinylink.in, tinyurl.com, tinyurl.hu, tl.gd, tldr.sk, tmi.me, tnw.to, tny.com, tny.cz, to.ly, to8.cc, togoto.us, tohle.de, tpmr.com, tprt.co, tr.im, tr5.in, tra.kz, traceurl.com, trck.me, trunc.it, tweetburner.com, tweez.me, twet.fr, twhub.com, twirl.at, twitclicks.com, twitterpan.com, twiturl.de, twurl.cc, twurl.nl, tyn.ee, u.mavrev.com, u.nu, u.to, u6e.de, ug.cz, ukl.me.uk, upzat.com, ur1.ca, url.ie, url.lotpatrol.com, url4.eu, url4u.co, url5.org, urladda.com, urlao.com, urlborg.com, urlcut.com, urlcutter.com, urlhawk.com, urlin.it, urlpire.com, urls.fr, urls.tn, urltea.com, urlx.ie, urlz.fr, usat.ly, utfg.sk, v.gd, v.ht, vaza.me, vbly.us, vd55.com, verd.in, vgn.am, vgn.me, viralurl.biz, viralurl.com, virl.ws, vm.lc, vov.li, vrl.to, vt802.us, vur.me, vurl.bz, vurl.com, vzturl.com, w1p.fr, w55.de, wa.link, wa.me, waa.ai, wapo.st, wb1.eu, web99.eu, wed.li, win.gy, work.ink, workink.co, wp.me, wu.cz, ww7.fr, x.co, x.vu, x2c.eu, xaddr.com, xav.cc, xil.in, xl8.eu, xoe.cz, xr.com, xrl.in, xrl.us, xtu.me, xurl.es, yatuc.com, yeca.eu, yfrog.com, yhoo.it, yiyd.com, yogh.me, youfap.me, yourls.org, yourname.shim.net, ysear.ch, yuarel.com, yweb.com, yyv.co, z0p.de, z9.fr, zapit.nu, zeek.ir, zi.ma, zi.mu, zi.pe, zip.net, zud.me, zurl.ws, zxq.net, zz.gd, zzb.bz]
+    action: remove
+    priority: 1
+    action_reason: "URL shortener [{{match}}]"
+    message: "Your {{kind}} has been removed because you used a URL shortener ({{match}}). Please only use direct and full-length URLs."
+
+
+---
+    domain: [gyazo.com, ibb.co, imageshack.us, pinterest.com, postimg.cc, postimg.org, prnt.sc, prntscr.com, puu.sh]
+    ~url (ends-with): [.gif, .jpeg, .jpg, .png]
+    action: remove
+    priority: 1
+    action_reason: "Indirect link to hosted image #1 [{{url}}]"
+    comment: |
+        Your submission has been automatically removed due to an indirect link to a hosted image.
+
+        Please be considerate of mobile and RES users, and resubmit your link with the proper file extension.
+
+        For your convenience, here is your submitted link with a .png file extension appended to the end. Please check that it works. If it does, retry your submission with this link:
+
+        {{url}}.png
+
+        If the above link does not work, right-click on your image, select *Copy Image URL*, and paste that into the reddit submission page instead.
+---
+    domain: [imgur.com]
+    url (regex): ['imgur\.com/(a/)?[A-Za-z0-9]{5,8}$']
+    action: remove
+    priority: 1
+    action_reason: "Indirect link to hosted image #2 [{{url}}]"
+    comment: |
+        Your submission has been automatically removed due to an indirect link to a hosted image.
+
+        Please be considerate of mobile and RES users, and resubmit your post as a direct link.
+
+        For your convenience, here is your submitted link with .jpg and .gif file extensions appended to the end. Please see if one works, and re-try your submission with one of the following links:
+
+        * {{url}}.jpg
+        * {{url}}.gif
+
+        If the above links do not work, right-click on your image, select *Copy Image URL*, and paste that into the reddit submission page.
+---
+    domain: [imgur.com]
+    url (regex): ['gallery', 'imgur\.com/[A-Za-z0-9]{5,8},([A-Za-z0-9]{5,8},?)+']
+    action: remove
+    priority: 1
+    action_reason: "Indirect link to hosted image #3 [{{url}}]"
+    comment: |
+        Your submission has been automatically removed due to an indirect link to a hosted image.
+
+        Non-album multi-image links and imgur gallery links are not compatible with RES and mobile apps.
+
+        For multi-image links, please create an album and submit a link to that.
+
+        For gallery images, please right-click your image, choose *Copy Image URL*, and submit that direct image link to reddit.
+---
+    domain: [imgflip.com, pinterest.com, snag.gy, uput.in]
+    ~url: [i.imgflip.com, i.snag.gy, i.uput.in]
+    action: remove
+    priority: 1
+    action_reason: "Indirect link to hosted image #4 [{{url}}]"
+    comment: |
+        Your submission has been automatically removed due to an indirect link to a hosted image.
+
+        Please right-click your image, choose *Copy Image URL*, and submit that direct image link to reddit.
+---
+    domain: [tinypic.com]
+    action: remove
+    priority: 1
+    action_reason: "Indirect link to hosted image #5 [{{url}}]"
+    comment: |
+        Your submission has been automatically removed due to an indirect link to a hosted image.
+
+        Unfortunately, the media host {{domain}} is not compatable with mobile apps and/or RES. Please be considerate of mobile and RES users and resubmit your content using a different media host.
+
+
+---
+### Spam post comment terms
+type: submission
+title (includes-word): ['more perfect than I imagined','hotel room','What a difference 1 year makes','UPDATE ON MY COMPLETELY BARE FLF','a few weeks later I was pleasantly surprised','I love seeing both extremes of plant owners interact here','Need help with this fiddle leaf fig','Someone please talk me down off this ledge','What happened to my prayer plant cutting','ok i know this is silly but i’m pretty attached','live in my carport for a week or so','Never grown an avocado tree to this extent before','My palm tree friend is looking a little sad','happy enough except is crazy leggy','My toddler pulled off all the leaves of my monstera','dumpster behind my house','Back in the office full time','My coworkers Avocado seedling','london underground','not today gnats','I posted this dying abandoned aloe','you guys told me the flower on my cactus was fake']
+action: filter
+action_reason: "Includes: {{match}}"
+---
+
+### Self-promotion frequent offenders
+
+type: comment
+body (includes-word): ['Plant Tube','armuro']
+action: filter
+action_reason: "Includes: {{match}}"
+
+
+---
+
+### Report threshhold of 2, remove post/comment & notify mods
+
+reports: 2
+moderators_exempt: true
+priority: 9
+action: remove
+action_reason: report threshhold reached
+modmail: The above {{kind}} by u/{{author}} was removed because it received 4 reports. Please investigate and ensure that this action was correct.
+
+---
+
+### Disallow non-media posts
+
+type: submission
+~url (includes-word, regex): ['[\.=](jpe?g|png|gifv?|web[pm]|mp4)', '500px\.com', 'abload\.de', 'amazon\.com/clouddrive', 'anony\.ws', 'dailymotion\.com', 'deviantart\.com', 'deviantart\.net', 'drive\.google\.com', 'dropbox\.com', 'facebook\.com', 'fav\.me', 'fbcdn\.net', 'flickr\.com', 'forgifs\.com', 'gfycat\.com', 'gifs\.com', 'gifsoup\.com', 'giphy\.com', 'gyazo\.com', 'i\.redd\.it', 'i.reddituploads.com', 'ibb\.co', 'imageshack\.us', 'imgbb\.com', 'imgclean\.com', 'imgur\.com', 'imgrpost\.com', 'instagram\.com', 'instagr\.am', 'media\.discordapp\.net', 'media\.tumblr\.com', 'mediacru\.sh', 'minus\.com', 'min\.us', 'myimghost\.com', 'pasteboard\.co', 'photobucket\.com', 'photos\.app\.goo\.gl', 'photos\.google\.com', 'picsarus\.com', 'postimg\.cc', 'postimg\.org', 'preview\.redd\.it', 'puu\.sh', 'share\.icloud\.com', 'sli\.mg', 'staticflickr\.com', 'streamable\.com', 'tinypic\.com', 'twitpic\.com', 'v\.redd\.it', 'video\.twimg\.com', 'vimeo\.com', 'vm\.tiktok\.com', 'youtube\.com', 'youtu\.be', 'tabula\.civitat\.es']
+is_gallery: false
+priority: 9
+action: remove
+action_reason: "Not an image or video post"
+comment: |
+    Sorry, your {{kind}} was automatically removed because your post does not include a photo or video. See rule 3 on the sidebar for more information about this r/plantclinic post submission guideline.
+
+    **Please re-submit your post with at least one photo or video of your sick plant linked within it.** If you already have an image or video link in your post and keep getting this message, please [notify the plantclinic moderation team](https://www.reddit.com/message/compose?to=%2Fr%2Fplantclinic&amp;subject=Cannot%20submit%20post%20with%20image%20link) so we can fix the issue. Thanks!
+
+---
+#type: submission
+#comment_stickied: true
+#comment: |
+    #Please reply ***to your own post*** and add as much of the following information as possible:
+    
+    #&#129716; How long you have you had the plant?
+
+    #&#10067; How long have you had the problem?
+
+    #&#127774; How much light does the plant get?
+
+    #&#128166; What are your watering habits (how often AND how much), and does the pot have drainage?
+        
+    #&#128027; Pest and &#127793; soil issues may be re-directed to the [monthly pest and soil thread](https://www.reddit.com/r/plantclinic/comments/16xu3xa/october_2023_pest_and_soil_issue_thread/?utm_source=share&utm_medium=web2x&context=3)
+
+    #Posts without this additional information may be removed. The more information you provide, the better we can help!
+---
+### Auto-reply to list help auto-replies
+
+#type: comment
+#body (includes-word): '!list-help'
+#comment: |
+#    The following auto-responses are available:
+
+#    * `!under-water`
+#    * `!over-water`
+#    * `!root-rot`
+#    * `!humidity`
+#    * `!hard-water`
+#    * `!dense-soil`
+#    * `!hydrophobic`
+#    * `!etiolation`
+#    * `!over-lit`
+#    * `!cold`
+#    * `!aphids`
+#    * `!fungus-gnats`
+#    * `!mealybugs`
+#    * `!scale`
+#    * `!spider-mites`
+#    * `!thrips`
+#    * `!repot`
+#    * `!bottom-watering`
+#    * `!prop-soil`
+#    * `!prop-water`
+#    * `!prop-cactus`
+#    * `!orchid`
+#    * `!mushrooms`
+#    * `!spores'
+
+---
+
+### Auto-responder for under-watering
+
+#type: comment
+#body (includes-word): '!under-water'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    Symptoms: Under-watering can present as drooping leaves and stems, and leaves turning brown and dry from the edges in.
+
+#    Treatment: The easiest way to fix under-watering is to water your plant more frequently. If your plant hasn't been watered in a while, the soil won't absorb water easily. A good way to fix this is bottom-watering (comment `!bottom-watering` to learn more). If your plant responds well to watering but seems to dry out quickly, this could mean that it is becoming root-bound and there isn't much soil left to retain moisture. If this is the case you should re-pot your plant into a larger container.
+
+---
+
+### Auto-responder for over-watering
+
+#type: comment
+#body (includes-word): '!over-water'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    Symptoms: Over-watering can present as yellow or brown droopy leaves, a mushy base or stem, or fungus growing on the surface of your soil.
+
+#    Treatment: Reducing your watering frequency is often enough to fix this. Try not to water your plant on a fixed schedule, instead adhering to a care system specific for your plant species and environment. For most house plants a good baseline is waiting until the top few inches of the soil are dry before watering, with longer times for cacti and other succulents. If your plant's soil remains moist long after watering and it still displays symptoms of over-watering, root rot may have set in.
+
+#    Comment `!root-rot` to learn more.
+
+---
+
+### Auto-responder for root-rot
+
+#type: comment
+#body (includes-word): '!root-rot'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    Symptoms: Root rot can present as over-watering in the early stages (yellow/brown drooping leaves, visible fungus). As it progresses you may see the plant look under-watered even as the soil stays wet. This is a sign the roots have rotted and are no longer able to absorb water.
+
+#    Treatment: Early stages of root rot can sometimes be treated by completely changing your plant's soil and avoiding watering for a few days. Note that this will likely cause transplant shock, so it's only a good option when your plant is still relatively healthy and it will look worse before it gets better. In the later stages the only option is to propagate your plant so a piece of it has a chance to survive.
+
+#    Comment `!soil-prop`, `!water-prop`, or `!cactus-prop` to learn more.
+
+---
+
+### Auto-responder for humidity
+
+#type: comment
+#body (includes-word): '!humidity'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    Some plants and tropical plants in particular, need more humidity than is found in the average home. Relative humidity levels vary greatly by geographic location and tend to be lower in winter, particularly with central heat and air conditioning. A hygrometer can help you determine humidity levels. Many local nurseries carry them or they can be found online.
+
+#    Unfortunately, misting and pebble trays do not increase humidity for plants. Placing your plant in a bathroom or kitchen may help if there is enough light. A humidifier is usually the best option for plants that need increased humidity. A cloche or plant cover can also increase humidity.
+
+---
+
+### Auto-responder for tap water
+
+#type: comment
+#body (includes-word): '!tap-water'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    Certain plants are highly sensitive to chemicals commonly found in tap water, such as excess chlorine, fluoride, limescale, and those resulting from water-softening. ​
+
+#    There is no need to let water sit overnight before using it on plants. This has been recommended as a way to let chlorine evaporate, but there generally isn’t enough chlorine in tap water to harm most plants, and allowing portions of tap water to evaporate may increase mineral concentrations in the remaining water. ​
+
+#    If you have soft water, you can use it to water your houseplants, but be sure to flush the salts that can accumulate in the potting mix once a month or so. Simply pour water into the pot until it runs out the bottom; wait for it to drain completely and then repeat the process.
+
+#    When using tap water, use room temperature water to avoid shocking the plant. Alternatively, rain water, bottled water, or distilled water may be used.
+
+---
+
+### Auto-responder for dense soil
+
+#type: comment
+#body (includes-word): '!dense-soil'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    Symptoms: The substrate your plant is in is staying wet too long. This can lead to symptoms similar to over-watering and eventually root rot. Things like mushrooms or fuzzy molds/fungi will commonly be seen growing in dense or highly organic soils.
+
+#    Treatment: Try adding things like perlite, vermiculite, orchid bark, or horticultural charcoal to your soil to help with drainage and aeration. For cactus and other desert plants, things like coarse sand or fine pumice will also help improve soil texture. Adding stones to the bottom of the pot is not recommended, as water can sit stagnant at the bottom of the pot.
+
+---
+
+### Auto-responder for hydrophobic soil
+
+#type: comment
+#body (includes-word): '!hydrophobic'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    Over time, potting substrates can become hydrophobic, meaning they repel rather than absorb water. This is most common with peat based products. Water may bead on the soil surface or runs straight through drainage holes if it has gone hydrophobic.
+
+#    If you suspect your soil may not be retaining water and nutrients, water your plant and carefully remove it from the pot. If there are dry spots in the soil after a few minutes, consider repotting or refreshing the soil.
+
+
+
+---
+
+### Auto-responder for over-lit
+
+#type: comment
+#body (includes-word): '!over-lit'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    Symptoms: Too much light can result in your plant's leaves turning yellow and brown, and curling at the edges.
+
+#    Treatment: Try to find a place where your plant will get less light, avoiding overcorrecting.
+
+---
+
+### Auto-responder for cold damage
+
+#type: comment
+#body (includes-word): '!cold'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    When plants are exposed to extreme cold, the plant cells expand and burst. This process is irreversible, and the affected portions of the plant will die.
+
+#    Remove cold-damaged portions of the plant and allow the plant to return to room temperature naturally. Reduce watering frequency unless and until the plant begins to put out new growth from portions of the plant (including roots) that did not fully freeze.
+---
+
+### Auto-responder for repot
+
+#type: comment
+#body (includes-word): '!repot'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    When plants become root-bound, (roots encircling the pot and poking out of drainage holes), it's time to repot. Sometimes roots will emerge above the soil surface and the plant will look like it's trying to squeeze out of its pot. Every plant will have different needs, but in general only go up one pot size when repotting. Very gently remove as much of the old soil as possible. If dealing with stubborn soil, the root ball can be soaked in a bucket of room temperature settled water for a few hours before repotting. As a rule of thumb the next size pot will only be about 1/2 inch or 13mm larger. Most houseplants only need about 1/4" to 1/2" between the container wall and the root system. Using a container that is too large can create issues by retaining too much water or taking too long to dry out. This can lead to fungal and pest issues.
+
+#    Some plants prefer to be slightly root-bound or snug in their pots. As a general rule underpotting a plant is preferable to overpotting a plant.
+
+#    To refresh soil, simply remove the old soil, soak if needed and reuse the same pot with new potting medium.
+
+---
+
+### Auto-responder for bottom-watering
+
+#type: comment
+#body (includes-word): '!bottom-watering'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    Bottom watering is a common practice to help water the entire volume of soil. The capillary action will draw water up through the holes in the bottom of the pot and soak the soil all the way through. Set the potted plant in a bucket of water for as long as it takes for the top soil to be damp.
+
+---
+
+### Auto-responder for soil propagation
+
+#type: comment
+#body (includes-word): '!prop-soil'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    Some plants can be propagated from cuttings in soil. For the best chances, take a cutting with a few leaf nodes with the cut made at an angle. Place the cutting in container with a majority inorganic composition (perlite or vermiculite are recommended) and add water. Place in a high-humidity environment, or cover with a plastic bag to trap humidity inside.
+
+---
+
+### Auto-responder for water propagation
+
+#type: comment
+#body (includes-word): '!prop-water'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    Some plants can be propagated from cuttings in soil. For the best chances, take a cutting with a few leaf nodes with the cut made at an angle. Place the cutting in a water-filled container with the bottom few nodes submerged. Place in a high-humidity environment, or cover with a plastic bag to trap humidity inside. You can add rooting hormone to speed up the process.
+
+---
+
+### Auto-responder for cactus propagation
+
+#type: comment
+#body (includes-word): '!prop-cactus'
+#comment: |
+#    Found advice keyword: `{{match}}`
+
+#    Cacti and succulents can be propagated from offsets, stem cuttings, or leaves depending on the species. In all cases, the cutting should be left to callous over for a few days before further steps are taken in order to prevent rot.
+
+#    Offsets and stem cuttings should be placed directly in soil after the callous has formed. Do not water the cutting until the first roots have formed; this can take weeks to months.
+
+#    There are two methods for propagating leaves:
+
+#    1.  Place leaves on a shallow dish filled with cactus soil after the callous has formed. Mist infrequently until the first roots have formed; this can take weeks to months. After the first roots have formed, plant in cactus soil and water infrequently.
+
+#    2. Plant leaves directly in soil and wait for roots to form. Water lightly once a month after first root growth is observed.
