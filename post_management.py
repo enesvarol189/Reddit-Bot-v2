@@ -89,7 +89,7 @@ class ManagePosts:
                 submission.mod.unlock()
     
                 for comment in submission.comments:
-                    if comment.author.name == self.reddit.user.me().name and "Your post has been removed" in comment.body:
+                    if comment.author and comment.author.name == self.reddit.user.me().name and "Your post has been removed" in comment.body:
                         comment.delete()
     
                 self.post_tracker[post_id]["post_removed"] = False
