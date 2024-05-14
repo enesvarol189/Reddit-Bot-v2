@@ -1,6 +1,6 @@
 ### Plant Clinic Reddit Bot
 
-This is a Reddit bot written in Python. It uses the [PRAW](https://praw.readthedocs.io/en/latest/) library to interact with Reddit's API and [MongoDB Atlas](https://www.mongodb.com/atlas/database) for database services. The bot is designed to manage posts on r/plantclinic by sending automated messages to authors of new posts, tracking responses, and handling posts based on certain conditions.
+This is a Reddit bot written in Python. It uses the [PRAW](https://praw.readthedocs.io/en/latest/) library to interact with Reddit's API and [MongoDB Atlas](https://www.mongodb.com/atlas/database) for database services. The bot is designed to manage posts on a selected subreddit by sending automated messages to authors of new posts, tracking responses, and handling posts based on certain conditions.
 
 ##### Getting Started
 
