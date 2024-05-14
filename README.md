@@ -19,12 +19,17 @@ These instructions will get you a copy of the project up and running on your loc
 git clone https://github.com/enesvarol189/Reddit-Bot-v2
 ```
 
-2. Install the dependencies
+2. Set the environment variable
+```bash
+setx MONGODB_CONN_STR "mongodb+srv://username:password@clustername.mongodb.net/database"
+```
+
+3. Install the dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the bot  
+4. Run the bot  
 ```bash
 python main.py start
 ```
