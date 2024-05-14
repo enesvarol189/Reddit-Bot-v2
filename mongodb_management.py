@@ -1,7 +1,7 @@
 import time
 from pymongo import MongoClient
 
-_conn_str = 'mongodb+srv://reddit_bot:xZaRptfRVHPhDhkg@cluster0.bhfgrbj.mongodb.net/'
+_conn_str = os.getenv('MONGODB_CONN_STR')
 
 _client = MongoClient(_conn_str)
 
